@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responive coffee Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        </head>
+        <body>
+
+            <header>
+                <a href="#home" class="logo">
+                    <img src="https://jcodonuts.com/assets/img/logo/new_jco_logo.png" alt="">
+                </a>
+
+                 <i class='bx bx-menu' id="menu-icon"></i>
+                 <ul class="navbar">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#product">PRODUCT</a></li>
+                    <li><a href="#developer">DEVELOPERS</a></li>
+                 </ul>
+
+                 <div class="header-icon">
+                    <i class='bx bx-cart-alt' id="cartImg"></i>
+                    <i class='bx bx-search' id="search-icon"></i>
+                 </div>
+
+                 <div class="search-box">
+                    <input type="search" name="" id="" placeholder="Search Here..">
+                 </div>
+
+            </header>
+            <section class="home" id="home">
+                <div class="home-text">
+                    <h1>Start your day <br> with <span>Donuts</span></h1>
+
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+                <div class="home-img">
+                    <img src="" alt="">
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about-img">
+                    <img src="https://jcodonuts.com/assets/img/element/donuts-3.jpg" alt="">
+                </div>
+                <div class="about-text">
+                  
+                    <h2>About us</h2>
+                    <p>Jblack Donuts is a Delicious dessert so yummy make from quality ingredients make by a Expert Baker</p>
+                    Jblack Donuts may be a bit pricey but it is worth it to buy good quality of service good product make you feel comfortable
+                    <p><b>Our Fluffy Donuts</b></p>
+                    <p>The secret to our donuts isn’t just in our dough, but in the finest quality ingredients that “speak” for themselves. Rich and dark chocolate, crunchy and crisp Australian almonds, New Zealand smooth cream cheese, and premium Japanese matcha just to name a few. We don’t do shortcuts. Real ingredients are more delicious.</p>
+                    <a href="https://jcodonuts.com/id/en/our-story" class="btn">Learn More</a>
+                </div>
+
+            </section>
+
+          
+            
+            <section class="product" id="product">
+                <div class="heading">
+                    <h2><center>Our Popular Products</center></h2>
+                </div>
+                </div>
+                <div class="product-container">
+                    <div class="box" id="item1">
+                        <img src="https://jcodonuts.com/assets/img/menu/crunchy-crunchy.webp" alt="">
+                        <h3>Crunchy Crunch</h3>
+                        <div class="content">
+                            <span>$100</span>
+                          <button onclick="addToCart(item1)">Add to cart</button> 
+                        </div>
+                    </div>
+                    <div class="box" id="item2">
+                        <img src="https://jcodonuts.com/assets/img/menu/chocolate-rainbow.webp" alt="">
+                        <h3>Chocolate Rainbow</h3>
+                        <div class="content">
+                            <span>$150</span>
+                          <button onclick="addToCart(item2)">Add to cart</button> 
+                        </div>
+                    </div>
+                    <div class="box" id="item3">
+                        <img src="https://jcodonuts.com/assets/img/menu/caviar-chocolate.webp" alt="">
+                        <h3>Caviar Chocolate</h3>
+                        <div class="content">
+                            <span>$150</span>
+                          <button onclick="addToCart(item3)">Add to cart</button> 
+                        </div>
+                    </div>
+                    <div class="box"  id="item4">
+                        <img src="https://jcodonuts.com/assets/img/menu/forest-glam.webp" alt="">
+                        <h3>Forest Glam</h3>
+                        <div class="content">
+                            <span>$10</span>
+                          <button onclick="addToCart(item4)">Add to cart</button> 
+                        </div>
+                    </div>
+                    <div class="box" id="item5">
+                        <img src="https://jcodonuts.com/assets/img/menu/tira-miss-u.webp" alt="">
+                        <h3>Tira Miss U</h3>
+                        <div class="content">
+                            <span>$10</span>
+                           <button onclick="addToCart(item5)">Add to cart</button> 
+                        </div>
+                    </div>
+                    <div class="box"  id="item6">
+                        <img src="https://jcodonuts.com/assets/img/menu/why-nut.webp" alt="">
+                        <h3>Why nut?</h3>
+                        <div class="content">
+                            <span>$15</span>
+                           <button onclick="addToCart(item6)">Add to cart</button> 
+                        </div>
+                    </div>
+                  <div class="box" id="item7">
+                      <img src="https://jcodonuts.com/assets/img/menu/glazzy.webp" alt="">
+                      <h3>Glazzy</h3>
+                      <div class="content">
+                          <span>$20</span>
+                         <button onclick="addToCart(item7)">Add to cart</button> 
+                      </div>
+                  </div>
+                  <div class="box" id="item8">
+                      <img src="https://jcodonuts.com/assets/img/menu/green-tease.webp" alt="">
+                      <h3>Green Tease</h3>
+                      <div class="content">
+                          <span>$15</span>
+                         <button onclick="addToCart(item8)">Add to cart</button> 
+                      </div>
+                  </div>
+                  <div class="box" id="item9">
+                      <img src="https://jcodonuts.com/assets/img/menu/choconutzy.webp" alt="">
+                      <h3>Choco Nutzy</h3>
+                      <div class="content">
+                          <span>$10</span>
+                         <button onclick="addToCart(item9)">Add to cart</button> 
+                      </div>
+                  </div>
+                  <div class="box" id="item10">
+                      <img src="https://jcodonuts.com/assets/img/menu/candy-cane.webp" alt="">
+                      <h3>Candy Cane</h3>
+                      <div class="content">
+                          <span>$10</span>
+                         <button onclick="addToCart(item10)">Add to cart</button> 
+                      </div>
+                  </div>
+                  <div class="box" id="item11">
+                    <img src="https://jcodonuts.com/assets/img/menu/sugar-ice.webp" alt="">
+                    <h3>Sugar Ice</h3>
+                    <div class="content">
+                        <span>$5</span>
+                       <button onclick="addToCart(item11)">Add to cart</button> 
+                    </div>
+                </div>
+                <div class="box" id="item12">
+                    <img src="https://jcodonuts.com/assets/img/menu/white-desert.webp" alt="">
+                    <h3>White Desert</h3>
+                    <div class="content">
+                        <span>$20</span>
+                       <button onclick="addToCart(item12)">Add to cart</button> 
+                    </div>
+                </div>
+
+                </div>
+            </section>
+          <br>
+          <br>
+          <br>
+        
+          <section class="developer" id="developer">
+            <div class="heading">
+              <h2><center>DEVELOPERS</center></h2>
+            </div>
+            <div class="customers-container">
+              <div class="box">
+                <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/412882391_2250458851972796_7818097178258583816_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGOOrJSR1FuhZVx53Aiyr2ASoykYmuk7IpKjKRia6Tsiu1KcwrOw2waazKvlVnwYjFDGw_37_MlHdp9EBZGqR_C&_nc_ohc=bKYDTiVNMP0Q7kNvgF1rh-s&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfD7minbh_3saTm-oyK3fgFafjNDge_oGjbo5DxjBUlFug&oe=663D6C01" alt="">
+                <h2>Jerome R. sagunday</h2>
+                <h2>CHIEF EXECUTIVE OFFICER</h2>
+              <div class="stars">
+                <a href="https://web.facebook.com/RomSoy12"><i class='bx bxl-facebook-circle' ></i></a>
+              </div>
+              </div>
+              <div class="box">
+                <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.6435-9/54522747_149884166039651_5270967067481210880_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHkdES4u5c4TnggkpKUZu-pU2fuy_ISs1dTZ-7L8hKzV0bqVnE4exQfD40FMryJvIjU0Qw_wEpvHI8X2wVAPg3F&_nc_ohc=th7vJ8HFx70Q7kNvgHQEBHR&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfA14TjK8_7rOxjVGDaLuwiICrGppVjq6K2WoHAW4d8CAw&oe=665490BE" alt="">
+                <h2>JC Emmanuel G. Avila</h2>
+                <h2>WEBSITE DEVELOPER</h2>
+              <div class="stars">
+                <a href="https://web.facebook.com/JCEMMANUEL11/"><i class='bx bxl-facebook-circle' ></i></a>
+              </div>
+              </div>
+              <div class="box">
+                <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/326104386_519862163459151_56273918418448082_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHWSmiPW_zfXh1YcqAPGrzTY87cIhXsn79jztwiFeyfv77v_6UVan6QmKpNM7edqqAxZ6nvjGRpw_TxUDuRQX7-&_nc_ohc=b-e8wkst1REQ7kNvgH8nt_6&_nc_oc=AdipeUalcY2y3poqIpzW426D0408IObFXfr_zmY5JHoNWB_AeR1Isp8nEVtSsIfsGN8&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfB_6Wmtg5ohe9Z53p_lAnKHXZNRwdiKquFEJNsZemP3ng&oe=663D8F93" alt="">
+                <h2>Ivan-J B. Andales</h2>
+                <h2>WEBSITE DEVELOPER</h2>
+              <div class="stars">
+                <a href="https://web.facebook.com/Andales17"><i class='bx bxl-facebook-circle' ></i></a>
+              </div>
+              </div>
+            </div>
+          </section>
+                 
+
+                    <section class="footer">
+                        <div class="footer-box">
+                            <h2>Start your day with Donuts</h2>
+                            <p>ala wabalo halanga oy patotoya</p>
+                            <div class="social">
+                                <a href="#"><i class='bx bx1-facebook' ></i></a>
+                                <a href="#"><i class='bx bx1-twitter' ></i></a>
+                                <a href="#"><i class='bx bx1-instagram' ></i></a>
+                                <a href="#"><i class='bx bx1-tiktok' ></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-box">
+                            <h3>Support</h3>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Help & Support</a></li>
+                            <li><a href="#">Return and Policy</a></li>
+                            <li><a href="#">Term Of Use</a></li>
+                        </div>
+                        <div class="footer-box">
+                            <h3>View Guides</h3>
+                            <li><a href="#">Feature</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog Posts</a></li>
+                            <li><a href="#">Our Branches</a></li>
+                        </div>
+                        <div class="footer-box">
+                            <h3>Contact</h3>
+                            <div class="contact">
+                                <span><i class='bx bxs-map' ></i>Holy Cross of Davao College</span>
+                                <span><i class='bx bxs-phone' ></i>(082) 221 9071</span>
+                                <span><i class='bx bxs-envelope' ></i>Jblackdonuts@gmail.com</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="copyright">
+                        <p>&#169; Jblackdonuts All Right Reserve</p>
+                    </div>
+
+
+            <script src="script.js"></script>
+
+        </body>
+</html>
